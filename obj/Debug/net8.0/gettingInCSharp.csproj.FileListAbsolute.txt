@@ -12,3 +12,4 @@ C:\Users\jhuun\Desktop\Main Dev\Learnings\gettingInCSharp\obj\Debug\net8.0\refin
 C:\Users\jhuun\Desktop\Main Dev\Learnings\gettingInCSharp\obj\Debug\net8.0\gettingInCSharp.pdb
 C:\Users\jhuun\Desktop\Main Dev\Learnings\gettingInCSharp\obj\Debug\net8.0\gettingInCSharp.genruntimeconfig.cache
 C:\Users\jhuun\Desktop\Main Dev\Learnings\gettingInCSharp\obj\Debug\net8.0\ref\gettingInCSharp.dll
+C:\Users\jhuun\Desktop\Main Dev\Learnings\gettingInCSharp\obj\Debug\net8.0\gettingInCSharp.sourcelink.json
