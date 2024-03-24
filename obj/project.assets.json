@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhuun\\Desktop\\Main Dev\\Learnings\\gettingInCSharp\\gettingInCSharp.csproj",
+      "projectUniqueName": "C:\\Users\\jhuun\\Desktop\\Main Development\\LearningOrSkillsBuilding\\gettingInCSharp\\gettingInCSharp.csproj",
       "projectName": "gettingInCSharp",
-      "projectPath": "C:\\Users\\jhuun\\Desktop\\Main Dev\\Learnings\\gettingInCSharp\\gettingInCSharp.csproj",
+      "projectPath": "C:\\Users\\jhuun\\Desktop\\Main Development\\LearningOrSkillsBuilding\\gettingInCSharp\\gettingInCSharp.csproj",
       "packagesPath": "C:\\Users\\jhuun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhuun\\Desktop\\Main Dev\\Learnings\\gettingInCSharp\\obj\\",
+      "outputPath": "C:\\Users\\jhuun\\Desktop\\Main Development\\LearningOrSkillsBuilding\\gettingInCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jhuun\\AppData\\Roaming\\NuGet\\NuGet.Config"

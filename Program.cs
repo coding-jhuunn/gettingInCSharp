@@ -2,41 +2,48 @@
 
 namespace MyApp
 {
-      class Wizard{
-            public string uname ;
-            public string magicName ;
-            public int spellSlots;
-            public float experience; 
-
-
-            public Wizard(string _uname,string _magicName){
-                uname = _uname;
-                magicName= _magicName;
-                spellSlots = 2;
-                experience =0f;
-            }
-            public void introduce(){
-                Console.WriteLine("Hello My name is "+ uname);
-            }
-            public void castMagic(){
-                Console.WriteLine("I cast my "+ magicName +" to you");
-            }
-        }
+    
     internal class Program
     {
       
 
         static void Main(string[] args)
         {
-            Wizard firstWizard = new Wizard("asd","asd");
-          Wizard wizard01 = new Wizard("Leveticus","Hayaahh");
-          Wizard wizard02 = new Wizard("Warlock","Rain of Shadows");
-          wizard01.introduce();
-          wizard01.castMagic();
-          wizard02.introduce();
-          wizard02.castMagic();
-          Console.WriteLine(wizard02.experience);
-          Console.ReadKey();
+            int heroLifePoint =10;
+            int monsterLifePoint = 10;
+            Random ran = new Random();
+           
+            while(heroLifePoint >= 0 || monsterLifePoint>=0){
+              Console.WriteLine("The Hero attacks");
+              monsterLifePoint -= ran.Next(1,10);
+              Console.Write("The Dragon life point is ");
+
+              Console.WriteLine(monsterLifePoint);
+              if(monsterLifePoint>0){
+              Console.WriteLine("The Dragon attack");
+                heroLifePoint-=ran.Next(1,10);
+              Console.Write("The hero life point is ");
+
+                Console.WriteLine(heroLifePoint);
+              }
+              if(heroLifePoint <0){
+                Console.WriteLine("The Dragon wins");
+                break;
+              }
+                 if(monsterLifePoint <0){
+                Console.WriteLine("The hero wins");
+                break;
+              }
+            }
+
+
+
+         
+
+           
+            Console.ReadLine();
+
+
         }
     }
 }
